@@ -23,8 +23,8 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-semibold mb-4">Contact</h3>
             <div className="space-y-2">
-              <p>info@5minuteloan.com</p>
-              <p>+91 93555 13592</p>
+              <p>info@blinkroan.com</p>
+              <p>+91 xxx xxx</p>
             </div>
           </div>
         </div>

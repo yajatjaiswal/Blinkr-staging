@@ -87,7 +87,7 @@ function Calculator() {
         </div>
 
         {/* Right Panel - Chart */}
-        <div className="bg-[#5799b9] rounded-3xl p-8 text-white">
+        <div className="bg-[#4C1D95] rounded-3xl p-8 text-white">
           <div className="h-full flex flex-col items-center justify-center">
             <div className="relative w-64 h-64">
               <PieChart width={256} height={256}>

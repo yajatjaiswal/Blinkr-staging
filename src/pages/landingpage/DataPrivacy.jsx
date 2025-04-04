@@ -65,7 +65,7 @@ export default function DataPrivacy() {
         {[...Array(10)].map((_, i) => (
           <div
             key={i}
-            className="absolute rounded-t-full bg-[#5799b9]"
+            className="absolute rounded-t-full bg-purple-500"
             style={{
               width: `${120 - i * 10}%`,
               height: `${120 - i * 10}%`,

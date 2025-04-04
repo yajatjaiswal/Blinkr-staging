@@ -25,7 +25,7 @@ const Cards2 = () => {
   ];
 
   return (
-    <div className=" bg-gradient-to-br from-[#5799b9] via-[#7095a1] to-[#5799b9] rounded-[30px] p-4 sm:p-6 md:p-12 text-white mt-2 sm:mt-3 mx-2 sm:mx-3">
+    <div className=" bg-gradient-to-br from-[#4D38DD] via-[#9A54F7] to-[#E6E0FF] rounded-[30px] p-4 sm:p-6 md:p-12 text-white mt-2 sm:mt-3 mx-2 sm:mx-3">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl sm:text-4xl font-bold text-center text-white mb-12">
           Key Defferentiantor

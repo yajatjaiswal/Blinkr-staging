@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';  // Import NavLink
-import fiveMinute from '../assets/5minute.png';
+import logo from '../assets/logo.png';
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -9,9 +9,9 @@ function Navbar() {
     <div className="flex items-center justify-between bg-white text-black rounded-full px-2 sm:px-4 md:px-5 lg:px-5 xl:px-6 py-1 md:py-2 mb-4 sm:mb-6 md:mb-8 lg:mb-8 xl:mb-10 w-[95%] sm:w-[90%] md:w-[90%] lg:w-[85%] xl:w-[60%] mx-auto max-w-4xl shadow-sm">
       {/* Logo */}
       <div className="flex items-center gap-1 sm:gap-2">
-        <img src={fiveMinute} alt="logo" className="w-10 h-5 sm:w-12 sm:h-6 md:w-14 md:h-7 lg:w-16 lg:h-8 xl:w-20 xl:h-10" />
+        <img src={logo} alt="logo" className="w-10 h-5 sm:w-12 sm:h-6 md:w-14 md:h-7 lg:w-16 lg:h-8 xl:w-20 xl:h-10" />
       </div>
-
+      
       {/* Desktop Navigation */}
       <ul className="hidden md:flex items-center space-x-2 md:space-x-2 lg:space-x-3 xl:space-x-4 text-[11px] md:text-xs lg:text-xs xl:text-sm font-semibold">
         <li className="cursor-pointer">
